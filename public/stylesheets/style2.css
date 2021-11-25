@@ -1,0 +1,60 @@
+body {
+  font: 14px 'Josefin Sans', sans-serif;
+    background: url(/images/6128227.jpg) no-repeat center ;
+    font: 16px 'Josefin Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+}
+
+a {
+  color: #00B7FF;
+}
+body>main{
+  padding: 50px;
+  background-color: white;
+  min-width: 50vw;
+  min-height: 60vh;
+  position: absolute;
+  top: 18%;
+  left: 23%;
+  margin: -25px 0 0 -25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius:6% 6% 6% 6% / 8% 8% 8% 8%;
+  box-shadow: -1px 1px 9px 7px rgba(255,255,255,0.32);
+}
+section{
+  color: #621319;
+}
+button{
+  margin-top: 4%;
+  border: none;
+  background-color: #449154;
+  color: white;
+  font: 18px 'Josefin Sans', sans-serif;
+  min-width: 20vw;
+  min-height: 10vh;
+}
+select{
+  border: 1px solid #fbc18b;
+  min-height: 6vh;
+  width: 16vw;
+  outline: none;
+  font: 16px 'Josefin Sans', sans-serif;
+}
+select>option{
+  background-color: #621319;
+  font: 16px 'Josefin Sans', sans-serif;
+  color: white;
+}
