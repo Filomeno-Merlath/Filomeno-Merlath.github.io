@@ -23,15 +23,15 @@ body>main{
   padding: 50px;
   background-color: white;
   min-width: 50vw;
-  min-height: 60vh;
+  min-height: 40vh;
   position: absolute;
-  top: 18%;
+  top: 28%;
   left: 23%;
   margin: -25px 0 0 -25px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius:6% 6% 6% 6% / 8% 8% 8% 8%;
+  border-radius:10% 10% 10% 10% / 8% 8% 8% 8%;
   box-shadow: -1px 1px 9px 7px rgba(255,255,255,0.32);
 }
 section{
@@ -43,8 +43,9 @@ button{
   background-color: #449154;
   color: white;
   font: 18px 'Josefin Sans', sans-serif;
-  min-width: 20vw;
-  min-height: 10vh;
+  min-width: 26vw;
+  min-height: 7vh;
+  border-radius: 6% 6% 6% 6% / 13% 13% 13% 13% ;
 }
 select{
   border: 1px solid #fbc18b;

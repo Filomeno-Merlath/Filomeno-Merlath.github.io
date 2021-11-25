@@ -22,6 +22,7 @@ async function loadNames(){
 
 async function getOccult(){
     var rndInt;
+    var userId=document.getElementById("name").value;
     try {
         let peoples = await $.ajax({
             url:`/api/peoples`,
@@ -46,7 +47,7 @@ async function getOccult(){
     let i=0;
     rndInt = randomIntFromInterval(1, 14);
      while(i<alreadys.length){
-         if(alreadys[i].people_fk_id==rndInt){
+         if(alreadys[i].people_fk_id==rndInt||userId==rndInt){
          console.log(alreadys[i].people_fk_id==rndInt);
          rndInt = randomIntFromInterval(1, 14);
          i=0;
